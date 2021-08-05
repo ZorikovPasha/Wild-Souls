@@ -1,0 +1,698 @@
+@media (max-width:1540px) {
+  .OurWay__img {
+    margin-right: 40px;
+  }
+  .OurWay__img img {
+    width: 415px;
+    height: 505px;
+  }
+  .OurWay__img::before,
+  .OurWay__img::after {
+    position: static;
+    display: none;
+  }
+  .OurWay__page {
+    justify-content: center;
+  }
+  .OurWay__content {
+    margin-right: 40px;
+    width: 40%;
+  }
+
+
+  .section__info {
+    width: 40%;
+  }
+
+  .concept__img::before,
+  .concept__img::after {
+    position: static;
+    display: none;
+  }
+  .five__img::before,
+  .five__img::after {
+    position: static;
+    display: none;
+  }
+}
+
+@media (max-width:1400px) {
+  .recipes__slider-item img{
+    width: 100%;
+    background-size: cover;
+  }
+}
+
+@media (max-width:1200px) {
+  .top__title {
+    font-size: 70px;
+    line-height: 76px;
+  }
+  .menu__list:first-child {
+    padding-left: 0px;
+  }
+  .section__info {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .section__info::after {
+    width: 163px;
+    height: 163px;
+    top: -81px;
+    right: -81px;
+    background-size: cover;
+  }
+  .section__img img{
+    width: 442px;
+    height: 556px;
+  }
+  .concept__content {
+    align-items: center;
+  }
+}
+
+@media (max-width:1000px) {
+  .loved,
+  .OurWay,
+  .likeaNut,
+  .reviews,
+  .concept,
+  .Halva,
+  .five,
+  .recipes {
+    padding: 100px 0;
+  }
+  
+
+  .loved__img img {
+    width: 171px;
+    height: 171px;
+  }
+  .loved__top {
+    padding-top: 0;
+    justify-content: center;
+  }
+
+  .Halva__Section-img {
+    margin-left: -35px;
+  }
+  .five__img img {
+    width: 324px;
+    height: 374px;
+  }
+  .recipes__slider-title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .recipes__text {
+    margin-bottom: 50px;
+  }
+  .recipes__top {
+    width: 100%;
+  }
+}
+
+@media (max-width:930px) {
+  .title {
+    font-size: 70px;
+    line-height: 78px;
+  }
+  .menu {
+    display: none;
+  }
+  .top__title {
+    padding-top: 30px;
+  }
+  .menu-btn {
+    display: block;
+  }
+  .mobMenu {
+    display: block;
+  }
+  .top {
+    position: relative;
+  }
+  .menu-btn.menu-btn--active {
+    div:nth-child(2) {
+      opacity: 0;
+    }
+    div:nth-child(1) {
+      transform: translateY(11px) rotate(135deg);
+    }
+    div:nth-child(3) {
+      transform: translateY(-11px) rotate(-135deg);
+    }
+  }
+  body.lock,
+  html.lock {
+    overflow: hidden;
+  }
+  .OurWay {
+    padding: 70px 0;
+  }
+  .OurWay__img img {
+    width: 338px;
+    height: 410px;
+  }
+  .leftSection {
+    display: none;
+  }
+  .leftSection__content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .leftSection__box {
+    padding-right: 0;
+    width: 80%;
+    padding-left: 10px;
+    background-color: #be5a4b;
+    border-radius: 0px 220px 0px 0px;  
+    }
+  .leftSection__title {
+    padding-top: 0;
+  }
+  .leftSection__info {
+    width: 70%;
+  }
+  .leftSection__img::after {
+    width: 57px;
+    height: 105px;
+    right: 30px;
+  }
+  .likeaNut {
+    padding: 0 0;
+  }
+  .likeaNut__products {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    margin-left: 0;
+    width: 100%;
+  }
+  .likeaNut__products-text {
+    text-align: center;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 30px;
+  }
+  .likeaNut__container {
+    position: static;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .likeaNut__page {
+    position: static;
+  }
+  .likeaNut__btn {
+    display: inline-block;
+    margin-bottom: 10px;
+    
+  }
+  .products-list {
+    margin: 0 auto;
+    width: 50%;
+  }
+  .reviews__item {
+    width: 345px;
+    margin: 0px 30px;
+  }
+  .products-list__link {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .section__img img{
+    width: 324px;
+    height: 408px;
+  }
+  .leftSection__info {
+    margin-right: 10px;
+  }
+  .Halva__Section {
+    display: none;
+  }
+  .Halva .leftSection__box {
+    background-color: #ABAFD6;
+  }
+  .Halva__content {
+    margin: 20px auto 0 auto;
+  }
+  .Halva__content-btn {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  .Halva__title {
+    padding-bottom: 20px;
+  }
+  .Halva__info-title {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .leftSection__info-price {
+    margin-bottom: 20px;
+  }
+  .section {
+    padding: 70px 0;
+  }
+  .recipes {
+    padding: 70px 0;
+  }
+  .five {
+    padding: 70px 0;
+  }
+  .Halva {
+    padding: 70px 0;
+  }
+  .footer__logo {
+    padding: 60px 0;
+  }
+}
+
+@media (max-width:900px) {
+  .OurWay__page {
+    justify-content: center;
+  }
+  .OurWay__content {
+    margin-right: 0;
+  }
+
+
+  .recipes__slider-item:nth-child(odd) {
+    margin-top: 0;
+  }
+  .leftSection__img::after {
+    position: static;
+    display: none;
+  }
+
+  .section__info::after {
+    position: static;
+    display: none;
+  }
+
+
+  .concept__content {
+    justify-content: center;
+  }
+
+
+
+  .footer__content {
+    flex-wrap: wrap;
+  }
+  .footer__column {
+    width: 100%;
+  }
+  .footer__listCol {
+    width: auto;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .footer__input {
+    max-width: 400px;
+  }
+}
+
+@media (max-width:810px) {
+  .arr-wrapper {
+    bottom: 60px;
+  }
+  .arr-link__img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  .section__info::after {
+    display: none;
+  }
+
+
+  .footer__content {
+    justify-content: flex-start;
+    // flex-direction: column;
+  }
+}
+
+@media (max-width:780px) {
+  .title {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .section {
+    padding-bottom: 70px;
+  }
+  .loved__top {
+    flex-direction: column;
+    align-items: center;
+  }
+  .loved__img {
+    order: 1;
+    padding-right: 0;
+    display: none;
+  }
+  .loved__top-content {
+    margin-bottom: 30px;
+  }
+
+
+
+  .OurWay {
+    padding: 60px 0;
+  }
+  .OurWay__page {
+    flex-direction: column;
+  }
+  .OurWay__title span {
+    display: initial;
+  }
+  .OurWay__content {
+    margin-right: 0;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  .OurWay__img {
+    margin-right: 0px;
+  }
+
+
+  .concept__content {
+    flex-direction: column;
+  }
+  .section__info {
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .section__info-title {
+    margin-bottom: 30px;
+  }
+  .section__info-text {
+    margin-bottom: 20px;
+  }
+  .section__img {
+    margin-right: 0;
+  }
+
+
+  .Halva .leftSection__box {
+    width: 90%;
+  }
+  .Halva__Section-img {
+    width: 39%;
+    img {
+      width: 100%;
+    }
+  }
+  .Halva__content-title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .five__img {
+    display: none;
+  }
+
+
+  .recipes__title {
+    text-align: center;
+  }
+
+
+  .footer {
+    padding-top: 40px;
+  }
+  .footer__logo {
+    display: none;
+  }
+  .footer__socials {
+    margin-bottom: 20px;
+  }
+  .footer__list {
+    margin-bottom: 40px;
+  }
+  .footer__bottom {
+    display: none;
+  }
+}
+
+@media (max-width:690px) {
+  .reviews__title {
+    width: 100%;
+    top: 30px;
+  }
+  .concept__content {
+    flex-direction: column;
+    align-items: start;
+  }
+  .section__info-text {
+    margin-bottom: 30px;
+  }
+  .section__info-btn {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  .Halva__Section-img {
+    display: none;
+  }
+  .btn {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  .five__content {
+    flex-direction: column;
+    align-items: start;
+  }
+  .five__img {
+    margin-left: auto;
+  }
+  .recipes {
+    padding: 90px 0;
+  }
+}
+
+@media (max-width:600px) {
+  .loved,
+  .OurWay,
+  .likeaNut,
+  .reviews,
+  .concept,
+  .Halva,
+  .five,
+  .recipes {
+    padding: 50px 0;
+  }
+  .top__title {
+    font-size: 50px;
+    line-height: 58px;
+  }
+  .title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .loved__top {
+    padding: 30px 0;
+  }
+  .loved__slider-item {
+    margin-right: 0;
+    text-align: center;
+    img {
+      margin: 0 auto;
+      width: 241px;
+      height: 351px;
+    }
+  }
+  .loved__slider-item:nth-child(odd) {
+    margin-top: 0px;
+  }
+  .loved__slider-title {
+    margin-top: -50px;
+    min-height: 0px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .leftSection__main {
+    flex-direction: column;
+  }
+  .leftSection__info {
+    width: 100%;
+    margin-right: 0;
+  }
+  .leftSection__box {
+    width: 100%;
+  }
+  .leftSection__title {
+    width: 100%;
+  }
+  .leftSection__info-title {
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .leftSection__img {
+    text-align: center;
+    order: -1;
+  }
+  .leftSection__img::after {
+    top: -60px;
+    right: 80px;
+  }
+  .leftSection__img img {
+    width: 206px;
+    height: 255px;
+    margin-right: 0px;
+  }
+
+
+  .section__info {
+    margin: 0 auto;
+  }
+  .section__img {
+    margin: 0 auto;    
+  }
+
+
+
+  .Halva__content-img{
+    padding: 20px 0;
+  }
+  .Halva__content img{
+    height: 200px;
+    width: 170px;
+    object-fit: cover;
+  }
+  .Halva__content-title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .reviews__slider {
+    padding-top: 50px;
+  }
+
+  .five__img {
+    margin-right: auto;
+  }
+
+
+
+  .recipes__slider-item img{
+    height: 30vh;
+    object-fit: cover;
+  }
+}
+
+@media (max-width:410px) {
+  .loved,
+  .OurWay,
+  .likeaNut,
+  .reviews,
+  .concept,
+  .Halva,
+  .five,
+  .recipes {}
+  .title {
+    font-size: 38px;
+    line-height: 46px;
+  }
+  .top__title {
+    font-size: 42px;
+    line-height: 50px;
+  }
+  .header__top-text {
+    font-size: 12px;
+  }
+  .loved__top-title {
+    font-size: 52px;
+    line-height: 60px;  
+  }
+  .loved__slider-item {
+    img {
+      width: 278px;
+      height: 405px;
+    }
+  }
+  .loved__slider-title {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .OurWay {
+    padding: 70px 0;
+  }
+  .OurWay__img img {
+    width: 284px;
+    height: 346px;
+  }
+  .leftSection__title {
+    padding-top: 50px;
+  }
+  .leftSection__info-title {
+    font-size: 36px;
+    line-height: 42px;
+
+  }
+  .leftSection__img {
+    text-align: center;
+  }
+
+  .leftSection__img img {
+    margin-right: 0px;
+  }
+  .leftSection__img::after {
+    right: 50px;
+  }
+  .section {
+    padding: 70px 0;
+  }
+  .section__info {
+    margin: 0;
+    width: 100%;
+  }
+  .section__info::after {
+    position: static;
+    display: none;
+  }
+  .section__img img{
+    width: 273px;
+    height: 312px;
+  }
+  .Halva__content {
+    width: 100%;
+    margin: 10px 10px 0 10px;
+  }
+  .Halva__content-title {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .five__img img {
+    width: 270px;
+    height: 312px;
+  }
+  .recipes {
+    padding: 40px 0;
+  }
+}
+
+@media (max-height:780px) {
+  .header__bottom::after {
+    position: static;
+    display: none;
+  }
+  .header__bottom {
+    padding-bottom: 0;
+  }
+  .mobMenu__list {
+    padding-top: 60px;
+  }
+  .top__title {
+    padding-top: 30px;
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+}
+@media (max-height:500px) {
+  .mobMenu__list {
+    padding-top: 50px;
+  }
+}

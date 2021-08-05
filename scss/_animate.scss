@@ -1,0 +1,178 @@
+.top__title {
+  transform: scale(0);
+  transition: transform .4s ease 1s;
+}
+.top__title.anim {
+  transform: scale(1);
+}
+
+
+
+.loved__slider-item {
+  transform: scale(0);
+  transition: transform .4s ease 1s;
+}
+.loved__slider.anim {
+  .loved__slider-item {
+    transform: scale(1);
+  }
+}
+
+
+
+.OurWay__content {
+  transform: translate(-200%);
+  transition: transform .4s ease 1.1s;
+}
+.OurWay__content.anim {
+  transform: translate(0px);
+}
+.OurWay__img img{
+  transform: scale(0);
+  transition: transform .4s ease 2.7s;
+}
+.OurWay__img:before {
+  transform: scale(0);
+  transition: transform .4s ease 1.1s;
+}
+.OurWay__img::after {
+  transform: scale(0);
+  transition: transform .4s ease 1.9s;
+}
+.OurWay__img.anim img,
+.OurWay__img.anim::before,
+.OurWay__img.anim::after {
+  transform: scale(1);
+}
+
+
+
+
+.leftSection__box {
+  transform: translate(-200%);
+  transition: transform .4s ease 1s;
+}
+.leftSection__box.anim {
+  transform: translate(0px);
+}
+
+.products-list__item {
+  transform: translate(200%, 0px);
+}
+.products-list__item:nth-child(1) {
+  transition: transform .4s ease .4s;
+}
+.products-list__item:nth-child(2) {
+  transition: transform .4s ease .8s;
+
+}
+.products-list__item:nth-child(3) {
+  transition: transform .4s ease 1.2s;
+
+}
+.products-list__item:nth-child(4) {
+  transition: transform .4s ease 1.6s;
+}
+.products-list__item:nth-child(5) {
+  transition: transform .4s ease 2s;
+
+}
+
+.likeaNut__products.anim {
+  .products-list__item {
+    transform: translate(0px, 0px);
+  }
+}
+
+
+.reviews__item {
+  transform: scale(0);
+  transition: transform .4s ease .7s;
+}
+.reviews__item.anim {
+  transform: scale(1);
+}
+
+
+.section__info {
+  transform: translate(-200%);
+  transition: transform .4s ease 1s;
+
+}
+.section__info.anim {
+  transform: translate(0px);
+
+}
+.section__img {
+  transform: translate(200%);
+  transition: transform .4s ease 1s;
+
+}
+.section__img.anim {
+  transform: translate(0px);
+}
+
+
+
+
+.concept__img img{
+  transform: scale(0);
+  transition: transform .4s ease 2.7s;
+}
+.concept__img:before {
+  transform: scale(0);
+  transition: transform .4s ease 1.9s;
+}
+.concept__img::after {
+  transform: scale(0);
+  transition: transform .4s ease 1.1s;
+}
+.concept__img.anim img,
+.concept__img.anim::before,
+.concept__img.anim::after {
+  transform: scale(1);
+}
+
+
+
+.Halva__content {
+  transform: scale(0);
+  transition: transform .4s ease .7s;
+}
+.Halva__content.anim {
+  transform: scale(1);
+}
+
+
+
+.five__img img{
+  transform: scale(0);
+  transition: transform .4s ease 2.7s;
+}
+.five__img:before {
+  transform: scale(0);
+  transition: transform .4s ease 1.9s;
+}
+.five__img::after {
+  transform: scale(0);
+  transition: transform .4s ease 1.1s;
+}
+.five__img.anim img,
+.five__img.anim::before,
+.five__img.anim::after {
+  transform: scale(1);
+}
+
+
+
+
+
+.recipes__slider-item {
+  transform: scale(0);
+  transition: transform .4s ease .7s;
+}
+.recipes__slider.anim {
+  .recipes__slider-item {
+    transform: scale(1);
+  }
+}
